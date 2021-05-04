@@ -7,14 +7,14 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { DemoComponent } from './demo/demo.component';
 
-import { SocialLoginModule, SocialAuthServiceConfig } from 'lib';
+import { SocialLoginModule, SocialAuthServiceConfig } from 'angularx-social-login';
 import {
   GoogleLoginProvider,
   FacebookLoginProvider,
   AmazonLoginProvider,
   VKLoginProvider,
   MicrosoftLoginProvider
-} from 'lib';
+} from 'angularx-social-login';
 
 @NgModule({
   declarations: [AppComponent, NavbarComponent, DemoComponent],
@@ -28,7 +28,7 @@ import {
           {
             id: GoogleLoginProvider.PROVIDER_ID,
             provider: new GoogleLoginProvider(
-              '624796833023-clhjgupm0pu6vgga7k5i5bsfp6qp6egh.apps.googleusercontent.com'
+              '795159690542-0842gi1usvu91j52u9hl1a68k1d0ielk.apps.googleusercontent.com'
             ),
           },
           {
